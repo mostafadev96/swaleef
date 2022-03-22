@@ -1,0 +1,39 @@
+ @import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+@include md-register-theme("default", (
+  primary: #2f2483, // The primary color of your application
+  accent: #009ee3 // The accent or secondary color
+));
+
+@import "~vue-material/dist/theme/all";
+
+.md-badge{
+  left: -8px!important;
+  right: auto!important;
+}
+.md-badge-content {
+  top: 0px!important;
+}
+.md-fab .md-ripple, .md-fab:before, .md-icon-button .md-ripple, .md-icon-button:before {
+  border-radius: unset!important;
+}
+
+#dislike > div{
+  background-color: #FF0000!important;
+}
+
+.md-accent-font{
+  color:var(--md-theme-default-accent)!important
+}
+.md-primary-font{
+  color:var(--md-theme-default-primary)!important
+}
+.md-black-font{
+  color:#000000!important
+}
+.md-white-font{
+  color:#ffffff!important
+}
+.my_menu .md-ripple{
+  justify-content: left!important;
+}

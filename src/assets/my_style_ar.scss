@@ -1,0 +1,70 @@
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+@include md-register-theme("default", (
+  primary: #2f2483, // The primary color of your application
+  accent: #009ee3 // The accent or secondary color
+));
+
+@import "~vue-material/dist/theme/all";
+.ar{
+    direction: rtl;
+    .md-badge{
+        right: -8px!important;
+        left: auto!important;
+    }
+    .md-bottom-bar-item .md-badge-content {
+        top: 0px!important;
+      }
+    .my_menu .md-ripple{
+        justify-content: left!important;
+    }
+    .md-field label{
+        left:unset
+    }
+    .md-card-header .md-avatar, .md-card-header>img{
+        margin-left: 16px;
+        margin-right: inherit;
+        float: right;
+    }
+    .md-card{
+        text-align: right;
+    }
+    .md-raised {
+        margin-left: 20px;
+        margin-right: inherit;
+    }
+    .md-badge-content {
+        margin-left: 20px;
+        margin-right: inherit;
+    }
+    .md-field{
+        direction: ltr;
+        label{
+            top: 16px;
+            left: unset;
+            right: 16px;
+        }
+        .md-error{
+            left: unset;
+            right: 0;
+        }
+    }
+    .md-inline{
+        direction: rtl;
+    }
+    .md-avatar{
+            margin-right: unset;
+            margin-left: 16px;
+    }
+    .md-file-icon{
+        left: 0;
+        position: absolute;
+    }
+    .header-avatar{
+        margin-right:0;
+        margin-left:12px
+    }
+    .search_btn{
+        text-align: right;
+    }
+}

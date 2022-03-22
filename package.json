@@ -1,0 +1,40 @@
+{
+  "name": "swalef",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "SET NODE_ENV=development & vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "moment": "^2.25.3",
+    "node-sass": "^4.14.0",
+    "querystring": "^0.2.0",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-beautiful-chat": "^2.4.1",
+    "vue-i18n": "^8.17.4",
+    "vue-loading-overlay": "^3.3.2",
+    "vue-material": "^1.0.0-beta-12",
+    "vue-progressbar": "^0.7.5",
+    "vue-range-component": "^1.0.3",
+    "vue-router": "^3.1.6",
+    "vue-scroll-loader": "^2.2.0",
+    "vue-session": "^1.0.0",
+    "vuelidate": "^0.7.5",
+    "vuex": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
